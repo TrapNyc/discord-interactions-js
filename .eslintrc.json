@@ -3,14 +3,14 @@
   "env": {
     "node": true
   },
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "prettier"],
+  "parser": "@Trapnyc-eslint/parser",
+  "plugins": ["@Trapnyc-eslint", "prettier"],
   "rules": {
     "prettier/prettier": "error"
   },
   "extends": [
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
+    "plugin:@Trapnyc-eslint/recommended",
     "plugin:prettier/recommended"
   ]
 }
